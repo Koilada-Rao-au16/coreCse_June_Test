@@ -1,0 +1,76 @@
+5. Explain in brief ( Marks 10)
+1. Swap memory.
+2. Context switching
+3. IPv4 address
+4. IPV6 address
+
+
+Answer:
+
+
+1) Swap Memory
+
+Memory swapping is a computer technology that enables an operating system to provide more memory to a running application or process than is available in physical random access memory (RAM).
+When the physical system memory is exhausted, the operating system can opt to make use of memory swapping techniques to get additional memory.
+Memory swapping is among the multiple techniques for memory management in modern systems. 
+Physical memory alone is sometimes not sufficient, which is why there are different ways of augmenting RAM in a system with these additional options
+
+2) Content Switching.
+
+In computing, a context switch is the process of storing the state of a process or thread, so that it can be restored and resume execution at a later point. 
+This allows multiple processes to share a single central processing unit (CPU), and is an essential feature of a multitasking operating system.
+The precise meaning of the phrase “context switch” varies. In a multitasking context, it refers to the process of storing the system state for one task, 
+so that task can be paused and another task resumed. A context switch can also occur as the result of an interrupt, such as when a task needs to access disk storage, 
+freeing up CPU time for other tasks. Some operating systems also require a context switch to move between user mode and kernel mode tasks. 
+The process of context switching can have a negative impact on system performance
+
+3)Internet Protocol version 4 (IPv4):
+
+Each network that runs TCP/IP must have a unique network number. Every machine on the network must have a unique IP address. 
+You must understand how IP addresses are constructed before you register your network and obtain its network number. 
+This section describes IPv4 addresses. For information on IPv6 addresses, see IPv6 Addressing.
+The IPv4 address is a 32-bit number that uniquely identifies a network interface on a machine. 
+An IPv4 address is typically written in decimal digits, formatted as four 8-bit fields that are separated by periods. 
+Each 8-bit field represents a byte of the IPv4 address. This form of representing the bytes of an IPv4 address is often referred to as the dotted-decimal format.
+The bytes of the IPv4 address are further classified into two parts: the network part and the host part. 
+The following figure shows the component parts of a typical IPv4 address, 129.144.50.56.s.
+Network Part: The network part specifies the unique number that is assigned to your network. 
+The network part also identifies the class of network that is assigned. In Figure 5–3, the network part occupies two bytes of the IPv4 address.
+Host Part: This is the part of the IPv4 address that you assign to each host. The host part uniquely identifies this machine on your network. 
+Note that for each host on your network, the network part of the address is the same, but the host part must be different.
+Subnet Number: Local networks with large numbers of hosts are sometimes divided into subnets. 
+If you choose to divide your network into subnets, you need to assign a subnet number for the subnet. 
+You can maximize the efficiency of the IPv4 address space by using some of the bits from the host number part of the IPv4 address as a network identifier.
+When used as a network identifier, the specified part of the address becomes the subnet number. 
+You create a subnet number by using a netmask, which is a bitmask that selects the network and subnet parts of an IPv4 address. 
+Refer to Creating the Network Mask for IPv4 Addresses for details.
+
+4)Internet Protocol version 6 (IPv6):
+
+The IPv6 protocol is the next generation of large-scale IP networks by supporting addresses that are 128 bits long. This allows 2128 possible addresses (versus 232 possible IPv4 addresses).
+
+Typically, the IP address assigned on an IPv6 host consists of a 64-bit subnet identifier and a 64-bit interface identifier. 
+IPv6 addresses are represented as eight colon-separated fields of up to four hexadecimal digits each. The following are examples of IPv6 addresses:
+
+2001:0000:0eab:DEAD:0000:00A0:ABCD:004E
+
+The use of the “::” symbol is a special syntax that you can use to compress one or more group of zeros or to compress leading or trailing zeros in an address. 
+The “::” can appear only once in an address.
+
+For example, the address, 2001:0000:0dea:C1AB:0000:00D0:ABCD:004E can also be represented as:
+
+2001:0:eab:DEAD:0:A0:ABCD:4E – leading zeros can be omitted
+
+2001:0:0eab:dead:0:a0:abcd:4e – not case sensitive
+
+2001:0:0eab:dead::a0:abcd:4e - valid
+
+2001::eab:dead::a0:abcd:4e - Invalid
+
+ 
+
+IPv6 uses a “/” notation which describes the no: of bits in netmask, similar to IPv4.
+
+2001:eab::1/128 – Single Host
+
+2001:eab::/64 – Network

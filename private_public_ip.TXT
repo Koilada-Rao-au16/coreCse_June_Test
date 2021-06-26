@@ -1,0 +1,37 @@
+
+3. What is the difference between private and public ip. (Marks 10)
+
+
+Answer:
+
+
+
+Private IP address of a system is the IP address which is used to communicate within the same network. Using private IP data or information can be sent or received within the same network.
+
+Public IP address of a system is the IP address which is used to communicate outside the network. Public IP address is basically assigned by the ISP (Internet Service Provider).
+
+Difference between Private and Public IP address:
+
+PRIVATE IP ADDRESS	                               PUBLIC IP ADDRESS
+Scope is local.	                                       Scope is global.
+
+It is used to communicate within the network.	       It is used to communicate outside the network.
+
+Private IP addresses of the systems connected
+in a network differ in a uniform manner.	       Public IP may differ in uniform or non-uniform manner.
+
+It works only in LAN.	                               It is used to get internet service.
+
+It is used to load network operating system.	       It is controlled by ISP.
+
+It is available in free of cost.	               It is not free of cost.
+
+Private IP can be known by entering
+ “ipconfig” on command prompt.	                       Public IP can be known by searching “what is my ip” on google.
+
+
+Range:                                                 Range:
+                                                       Besides private IP addresses, rest are public.
+10.0.0.0 – 10.255.255.255, 
+172.16.0.0 – 172.31.255.255, 
+192.168.0.0 – 192.168.255.255 
